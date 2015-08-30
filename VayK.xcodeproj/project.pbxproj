@@ -15,6 +15,9 @@
 		C9563A781B8DD8C7001FD9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9563A761B8DD8C7001FD9B3 /* LaunchScreen.xib */; };
 		C9563A841B8DD8C7001FD9B3 /* VayKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9563A831B8DD8C7001FD9B3 /* VayKTests.swift */; };
 		C9582E1D1B8EE3FE00ECCDCD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C9582E1C1B8EE3FE00ECCDCD /* Podfile */; };
+		C9C3E00B1B910CD5005B56FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3E00A1B910CD5005B56FA /* LoginViewController.swift */; };
+		C9C3E0111B911DAB005B56FA /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9C3E0101B911DAB005B56FA /* Pacifico.ttf */; };
+		C9C3E0131B9124DF005B56FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C3E0121B9124DF005B56FA /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		C9563A831B8DD8C7001FD9B3 /* VayKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VayKTests.swift; sourceTree = "<group>"; };
 		C9582E1C1B8EE3FE00ECCDCD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C9582E1F1B8EEB6800ECCDCD /* VayK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VayK-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9C3E00A1B910CD5005B56FA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C9C3E0101B911DAB005B56FA /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		C9C3E0121B9124DF005B56FA /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +112,15 @@
 		C9563A6A1B8DD8C7001FD9B3 /* VayK */ = {
 			isa = PBXGroup;
 			children = (
+				C9C3E0101B911DAB005B56FA /* Pacifico.ttf */,
 				C9563A6D1B8DD8C7001FD9B3 /* AppDelegate.swift */,
 				C9563A6F1B8DD8C7001FD9B3 /* ViewController.swift */,
 				C9563A711B8DD8C7001FD9B3 /* Main.storyboard */,
 				C9563A741B8DD8C7001FD9B3 /* Images.xcassets */,
 				C9563A761B8DD8C7001FD9B3 /* LaunchScreen.xib */,
 				C9563A6B1B8DD8C7001FD9B3 /* Supporting Files */,
+				C9C3E00A1B910CD5005B56FA /* LoginViewController.swift */,
+				C9C3E0121B9124DF005B56FA /* SignUpViewController.swift */,
 			);
 			path = VayK;
 			sourceTree = "<group>";
@@ -224,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9563A731B8DD8C7001FD9B3 /* Main.storyboard in Resources */,
+				C9C3E0111B911DAB005B56FA /* Pacifico.ttf in Resources */,
 				C9563A781B8DD8C7001FD9B3 /* LaunchScreen.xib in Resources */,
 				C9582E1D1B8EE3FE00ECCDCD /* Podfile in Resources */,
 				C9563A751B8DD8C7001FD9B3 /* Images.xcassets in Resources */,
@@ -277,7 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C3E00B1B910CD5005B56FA /* LoginViewController.swift in Sources */,
 				C9563A701B8DD8C7001FD9B3 /* ViewController.swift in Sources */,
+				C9C3E0131B9124DF005B56FA /* SignUpViewController.swift in Sources */,
 				C9563A6E1B8DD8C7001FD9B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

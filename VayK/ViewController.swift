@@ -13,10 +13,11 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpV
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         if (PFUser.currentUser() == nil) {
-            let loginViewController = PFLogInViewController()
+            let loginViewController = LoginViewController()
             loginViewController.delegate = self
             loginViewController.fields = .UsernameAndPassword | .LogInButton | .PasswordForgotten | .SignUpButton | .Facebook | .Twitter
             loginViewController.emailAsUsername = true
+            loginViewController.signUpController?.emailAsUsername = true
             loginViewController.signUpController?.delegate = self
             self.presentViewController(loginViewController, animated: false, completion: nil)
         } else {
